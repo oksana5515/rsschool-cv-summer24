@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>cv</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="assets/oksana7.ico">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+               <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+               <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+               <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+               <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+               <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <div class="container">
+         <section class="section" id="profile">
+            <img src="assets/photo.jpg" alt="my photo" class="section-profile-logo">
+            <h1 class="section-title">Oksana Zharikova</h1>
+         </section>
+         <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+               <li>Phone:+38096-121-77-33</li>
+               <li>E-mail: oksana.5515@gmail.com</li>
+               <li>City: Manilva, Spain</li>
+               <li>Linkedin:<a href="https://www.linkedin.com//in/oksana-zharikova-4596ba19a">Oksana Zharikova</a></li>
+               <li>RS school nickname: oksana5515</li>
+            </ul>
+         </section>
+         <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with
+               Company to use my skills in coding,
+               troubleshooting complex problems, and assisting in the timely completion of projects.</p>
+         </section>
+         <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+               <li>Java Script</li>
+               <li>HTML5</li>
+               <li> CSS</li>
+               <li>Git, GitHub</li>
+               <li>VS Code</li>
+            </ul>
+         </section>
+         <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre>Code example:
+               Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle
+               can be built with the sides of given length and false in any other case
+               function isTriangle(a, b, c) {
+                  if (a >= b && a >= c) {
+                     if ((b + c) > a) {
+                        return true;
+                     }
+                     else return false;
+                     }
+                     else if (b >= a && b >= c) {
+                        if ((c + a) > b) {
+                           return true;
+                        }
+                     else return false;
+                     }
+                     else if (c >= a && c >= b) {
+                        if ((b + a) > c) {
+                           return true;
+                        }
+                     else return false;
+                     }
+                  }
+               </pre>
+         </section>
+         <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul>
+               <li>MDN Web docs "Learn web development"</li>
+               <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+               <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+               <li>Udemy: HTML/CSS, JavaScript.</li>
+            </ul>
+         </section>
+         <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Southern branch of NUBiP of Ukraine "Crimean Agrotechnological University" (SF NUBiPU KATU), 2010</p>
+         </section>
+         <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+               <li>English - Intermediate</li>
+               <li>Spain - Intermediate</li>
+               <li>Russian - Native</li>
+               <li>Ukranian - Proficiency</li>
+            </ul>
+         </section>
+      </div>
+   </main>
+   <footer>
+      <div class="container">
+         2024
+         <a href="https://github.com/oksana5515" class="github nav-link">oksana5515</a>
+         <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+      <div class="container">
+         <a href="https://rs.school/courses/javascript-preschool-ru" class="rss"><img src="assets/th.jpeg"
+               alt="RSSchool" class="r-s-s"></a>
+      </div>
+   </footer>
+
+</body>
+
+</html>
