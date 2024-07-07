@@ -1,1 +1,66 @@
+* {
+   box-sizing: border-box;
 
+ }
+
+ header {
+   background-color: rgb(243, 202, 82);
+ }
+
+ main{
+   background-color: rgb(246, 233, 178);
+ }
+
+ footer{
+   background-color: rgb(122, 186, 120);
+ }
+ .section-profile-logo {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+
+   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+   filter: grayscale(0.2) brightness(1.05);
+   transition: .3s;
+}
+
+ body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ .container {
+   max-width: 1440px;
+   margin: 0 auto;
+
+ }
+ .nav-list {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ }
+ .main-container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .section {
+   width: 50%;
+ }
+
+ @media (max-width: 768px) {
+   .section {
+     width: 100%;
+   }
+ }
+ 
+ .rss {
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.r-s-s {
+   width: 10%;
+   height: 10%;
+
+}
