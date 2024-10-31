@@ -16,7 +16,6 @@ I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an en
 * CSS  
 * Git, GitHub  
 * VS Code
-* Adobe Photoshop, Illustrator, InDesign  
 
 ## Code example:
 Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case
