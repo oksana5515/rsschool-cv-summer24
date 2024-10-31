@@ -1,7 +1,7 @@
 # Oksana Zharikova  
 # Junior Frontend Developer    
 ## Contact information: 
-**Phone:** +38096-121-77-33    
+**Phone:** +38096-121-77-33, +34613215784   
 **E-mail:** oksana.5515@gmail.com  
 **City:** Manilva, Spain  
 **Linkedin:** https://www.linkedin.com//in/oksana-zharikova-4596ba19a  
